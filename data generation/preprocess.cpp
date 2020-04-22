@@ -33,7 +33,7 @@ int main(void)
 	{
 		infile >> ref;
 	}
-	cout << "¶ÁÈëÍê±Ï\n";
+	cout << "finish reading\n";
 	infile.close();
 	int n = ref.size();
 	int count[4] = {};
@@ -126,11 +126,6 @@ int main(void)
 	mycout2.close();
 	mycout3.close();
 }
-
-
-
-
-
 
 int Interpre(char a)//string to array of int
 {
