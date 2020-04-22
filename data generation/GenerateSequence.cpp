@@ -1,13 +1,9 @@
 #include <iostream>
 #include <cstdio>
 #include <string>
-#include <algorithm>
-#include <vector>
-#include <ctime>
 #include<math.h>
-#include<bitset>
-#include <streambuf>
 #include <fstream>
+#include <bitset>
 using namespace std;
 
 char trans(int x)
@@ -25,11 +21,11 @@ int main(void)
 {
 	int n,l,a,num;
 	char temp;
-	cout << "ÊäÈëÐòÁÐ³¤¶È£º";
+	cout << "Input sequence lengthï¼š";
 	cin >> n;
-	cout << "ÊäÈëtarget³¤¶È£º";
+	cout << "Input reads lengthï¼š";
 	cin >> l;
-	cout << "ÊäÈëtargetÆðÊ¼×ø±ê(0Îª³õÊ¼)£º";
+	cout << "Input reads starting position (0 is initial)ï¼š";
 	cin >> a;
 	ofstream seq("Sequence.txt");
 	ofstream target("Target.txt");
